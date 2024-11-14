@@ -10,7 +10,7 @@
 
 body{
     color: #fff;
-    background: black;
+    /* background: black; */
 }
 
 .header{
@@ -28,7 +28,7 @@ body{
 
 .logo{
     font-size: 32px;
-    color: wheat;
+    color: #80ced7;
     font-weight: 700;
     filter: drop-shadow(0 0 5px black);
 }
@@ -48,7 +48,7 @@ body{
 
 .main{
     min-height: 100vh;
-    background: url('background.gif') no-repeat;
+    /* background: url('background.gif') no-repeat; */
     background-size: cover;
     background-position: center;
     pointer-events: auto;

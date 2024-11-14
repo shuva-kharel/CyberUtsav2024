@@ -1,51 +1,89 @@
-<!DOCTYPE html>
-<html">
+    <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizizz Instructional Suite</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main class="main">
-        <header class="header">
-            <a class="logo">Quiz</a>
-            
-            <nav class="navbar">
-                <a href="#" class="active">Home</a>
-                <a href="about us.html">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+    <header>
+        <div class="navbar">
+            <div class="logo">Quizizz</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#help">Help</a></li>
+                    <li><a href="#high-score">High Score</a></li>
+                    <li><a href="#business">For Business</a></li>
+                </ul>
             </nav>
-        </header>
-
-        <div class="container">
-            <section class="quiz-section">
-                
-            </section>
-
-            <section class="home">
-                <div class="home-content">
-                    <h1>Quiz</h1>
-                    <button class="start-btn">Start Quiz</button>
-                </div>
-            </section>
+            <div class="actions">
+                <button class="quote-btn">Get a Quote</button>
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
         </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Introducing Instructional Suite</h1>
+            <blockquote>"I had no idea Supra could do that." - Almost everybody</blockquote>
+            <p>Create and deliver bell-to-bell curriculum resources that meet the needs of every student.</p>
+            <div class="cta-buttons">
+                <button>Teachers: Get Started</button>
+                <button>Helpers: Learn More</button>
+            </div>
+            <div class="trusted">
+                <p>Trusted by teachers in 90% of students and 150+ schools.</p>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h2>Now we support every part of your lesson. Here's how it works:</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>01</h3>
+                    <p>Adapt anything in your curriculum with a wide range of knowledge when you want it.</p>
+                </div>
+                <div class="step">
+                    <h3>02</h3>
+                    <p>Deliver differentiated instruction that’s as unique as your students.</p>
+                </div>
+                <div class="step">
+                    <h3>03</h3>
+                    <p>Get results. Witness joy. Repeat.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What teachers are saying:</h2>
+            <div class="testimonial-cards">
+                <div class="card">
+                    <p>"Use Supra to reinforce and check understanding after we've covered a concept..."</p>
+                    <span>- Rupa Thapa, 4th Grade Teacher</span>
+                </div>
+                <div class="card">
+                    <p>"Supra motivates students, increases confidence, and can help establish a culture of learning."</p>
+                    <span>- Bidhan Tiwari, Technology Manager</span>
+                </div>
+                <div class="card">
+                    <p>"I have students with IEPs, and I'm able to find lessons catering to their needs."</p>
+                    <span>- Bardan Rajlak, High School Teacher</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="get-started">
+            <h2>Start adapting your curriculum in minutes.</h2>
+            <button>Get Started</button>
+        </section>
     </main>
 
-    <div class="popup-info">
-        <h2>Please Choose a Catogery</h2>
-        <button class="info science-cat">Science</button>
-        <button class="info maths-cat">Mathematics</button>
-        <button class="info english-cat">English</button>
-        <button class="info general-cat">General</button>
-        <button class="info physics-cat">Physics</button>
-        <button class="info computer-cat">Computer</button>
-        <button class="info rapid-cat">Rapid Fire</button>
-
-        <div class="btn-group">
-            <button class="info-btn exit-btn">Exit Quiz</button>
-            <a href="#" class="info-btn continue-btn">Continue</a>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <footer>
+        <p>© 2024 Quizizz Inc.</p>
+    </footer>
 </body>
 </html>
